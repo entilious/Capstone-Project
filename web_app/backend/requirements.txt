@@ -1,0 +1,10 @@
+tensorflow-cpu==2.10
+streamlit==1.14.0 # VERY IMP, cause tensorboard 2.10.1 in use and 1.15 is wonky
+fastapi==0.115.8
+pydantic==2.10.6
+scikit-learn==1.6.1
+requests==2.32.3
+ollama
+pandas==2.2.3
+uvicorn[standard]
+numpy==1.26.4 # will raise TypeError
